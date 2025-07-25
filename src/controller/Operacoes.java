@@ -42,7 +42,6 @@ public class Operacoes {
 		tt = tt / Math.pow(10, 9);
 		System.out.println("String ==> " +tt+"s.");
 	}
-//fim exc 1
 //exc 2
 	public void dividef(String frase) {
 		int qntd = 0;
@@ -51,8 +50,8 @@ public class Operacoes {
 			qntd = qntd + 1;
 		}
 		System.out.println(qntd);
-	}
-	
+	}	
+//exc 3
 	public void impar(int[] vt2) {
 		for (int x: vt2) {
 			if (x % 2 == 0) {
